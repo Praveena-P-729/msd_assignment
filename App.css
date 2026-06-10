@@ -1,0 +1,24 @@
+/* Page wrapper and container styles */
+.page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(180deg, #eef2ff 0%, #d8e2ff 50%, #f6f6ff 100%);
+}
+
+.page h1 {
+  margin: 0 0 24px;
+  font-size: 42px;
+  color: #2c3868;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+/* NOTE: Card styling lives in CourseCard.css to avoid duplicate rules */
